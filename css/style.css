@@ -125,7 +125,7 @@ header nav a {
     align-items: center;
 }
 
-
+.fa-location-dot { font-size : 20px; color:black }
 
 .barre-de-recherche {
     display: flex;
@@ -576,7 +576,7 @@ input {
         justify-content: space-between;
     }
     
-    .div-filtres{margin:auto;}
+    .div-filtres{margin-right: auto;}
 
     .filtres-infogroup {
         display: flex;
@@ -696,7 +696,7 @@ input {
     }
 
     input {
-        width: auto;
+        width: calc(100% - 100px);
     }
 
     .barre-de-recherche {
