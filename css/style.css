@@ -77,7 +77,6 @@ header img {
     width: 61.09px;
     height: 19px;
     padding-top: 30px;
-
     padding-bottom: 30px;
 
 }
@@ -111,7 +110,7 @@ header nav a {
 }
 
 
-/********Information-Recherche-Filtres*********/
+/********Information*****************/
 
 .trouvez-votre-hebergement-title {
     display: flex;
@@ -119,13 +118,12 @@ header nav a {
     align-items: center;
 }
 
-.filtres-title {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+/***********Recherche***************/
 
-.fa-location-dot { font-size : 20px; color:black }
+.fa-location-dot {
+    font-size: 20px;
+    color: black
+}
 
 .barre-de-recherche {
     display: flex;
@@ -134,10 +132,13 @@ header nav a {
     padding-bottom: 15px;
     width: auto;
 
-  
+
 }
 
-.barre-de-recherche input {font-size:15px;text-align: center;}
+.barre-de-recherche input {
+    font-size: 15px;
+    text-align: center;
+}
 
 
 .container-logo {
@@ -161,7 +162,7 @@ header nav a {
     border-bottom-right-radius: 15px;
     color: white;
     background-color: #0065FC;
-    font-size: 15px ;
+    font-size: 15px;
     font-weight: bold;
     padding-left: 15px;
     padding-right: 15px;
@@ -183,13 +184,21 @@ input {
     font-family: "Raleway";
 }
 
+/*****************Filtres****************/
+
 .filtres-infogroup {
     display: flex;
     flex-direction: row;
     margin-top: 20px;
     margin-bottom: 20px;
 
-  
+
+}
+
+.filtres-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .filtre-subtitle {
@@ -209,7 +218,7 @@ input {
     display: grid;
     grid-template-columns: 1fr 0.75fr 1fr 1fr;
     gap: 15px;
-    margin-left:20px;
+    margin-left: 20px;
 }
 
 .filtre-eco {
@@ -217,8 +226,8 @@ input {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding-left:15px;
-    padding-right:15px;
+    padding-left: 15px;
+    padding-right: 15px;
     gap: 15px;
     width: auto;
     height: 50px;
@@ -280,10 +289,6 @@ input {
 
 }
 
-.card-subtitle br {
-    display: none;
-}
-
 .fa-info {
     display: flex;
     flex-direction: row;
@@ -298,7 +303,7 @@ input {
     margin-top: 15px;
     margin-bottom: 12px;
     margin-right: 15px;
-    color :#0000ff;
+    color: #0000ff;
 }
 
 .filtre-eco:hover {
@@ -386,7 +391,6 @@ input {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    flex-wrap: nowrap;
     margin-top: 33px;
     gap: 20px;
 }
@@ -517,6 +521,7 @@ input {
     background-color: #F2F2F2;
     justify-content: flex-start;
     gap: 300px;
+    padding-bottom: 20px;
 
 
 }
@@ -535,7 +540,7 @@ input {
 .assistance {
     display: flex;
     flex-direction: column;
-    
+
 }
 
 .title-pdp {
@@ -575,8 +580,11 @@ input {
         flex-direction: row;
         justify-content: space-between;
     }
-    
-    .div-filtres{margin-right: auto;}
+
+    .div-filtres {
+        margin-right: auto;
+        margin-left:auto;
+    }
 
     .filtres-infogroup {
         display: flex;
@@ -608,13 +616,14 @@ input {
 
     .conteneur-pdp {
         gap: 80px;
-        padding-bottom: 20px;
+
     }
 
+ 
 }
 
 /* Small devices (phones, less than 768px) */
-@media (max-width: 767.98px) {
+@media (max-width: 768px) {
 
     .main-container {
         padding: 0;
@@ -684,7 +693,9 @@ input {
         margin-left: auto;
     }
 
-    .filtre-text {padding-left: 10px;}
+    .filtre-text {
+        padding-left: 10px;
+    }
 
     .div-filtres {
         grid-template-columns: 1fr 1fr;
@@ -702,13 +713,13 @@ input {
     .barre-de-recherche {
         width: auto;
         justify-content: center;
-   
+
     }
 
     .bouton-recherche {
         border-radius: 15px;
         width: 50px;
-        margin-left:-20px;
+        margin-left: -20px;
         box-shadow: 0px 5px 5px grey;
     }
 
@@ -721,10 +732,8 @@ input {
     }
 
 
-    .populaires {margin:auto;}
-
-    .card-subtitle br {
-        display: flex; 
+    .populaires {
+        margin: auto;
     }
 
     .populaires-cards {
@@ -784,5 +793,5 @@ input {
         gap: 30px;
     }
 
-    /* ... */
+    
 }
